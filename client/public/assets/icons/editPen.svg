@@ -1,0 +1,25 @@
+<svg id="Edit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Base" width="24" height="24" fill="rgba(56,125,255,0.1)" opacity="0"/>
+  <g id="Edit_Icon" data-name="Edit Icon" transform="translate(2 2)">
+    <g id="Group_133" data-name="Group 133" transform="translate(0)">
+      <g id="Group_132" data-name="Group 132">
+        <path id="Path_9" data-name="Path 9" d="M19.77,4.356,15.647.234a.8.8,0,0,0-1.128,0L1.541,13.186a.8.8,0,0,0-.213.379l-1.3,5.452a.8.8,0,0,0,.961.961l5.452-1.3a.8.8,0,0,0,.379-.212L19.77,5.484A.8.8,0,0,0,19.77,4.356ZM5.849,17.176l-3.969.949.948-3.969L15.083,1.926l2.995,2.995Z" transform="translate(-0.004 0)" fill="#49B776"/>
+      </g>
+    </g>
+    <g id="Group_135" data-name="Group 135" transform="translate(11.457 3.266)">
+      <g id="Group_134" data-name="Group 134" transform="translate(0 0)">
+        <rect id="Rectangle_193" data-name="Rectangle 193" width="1.595" height="5.867" transform="translate(0 1.128) rotate(-45)" fill="#49B776"/>
+      </g>
+    </g>
+    <g id="Group_137" data-name="Group 137" transform="translate(3.558 5.34)">
+      <g id="Group_136" data-name="Group 136" transform="translate(0 0)">
+        <rect id="Rectangle_194" data-name="Rectangle 194" width="14.103" height="1.595" transform="translate(0 9.973) rotate(-45)" fill="#49B776"/>
+      </g>
+    </g>
+    <g id="Group_139" data-name="Group 139" transform="translate(1.51 13.239)">
+      <g id="Group_138" data-name="Group 138" transform="translate(0 0)">
+        <rect id="Rectangle_195" data-name="Rectangle 195" width="1.595" height="5.83" transform="translate(0 1.128) rotate(-45)" fill="#49B776"/>
+      </g>
+    </g>
+  </g>
+</svg>

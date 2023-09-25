@@ -1,0 +1,10 @@
+export { UserAvatar } from './userAvatar';
+export { ProfileSettings } from './profileSettings';
+export { ProfileContacts } from './profileContacts';
+export { ProfilePassword } from './profilePassword';
+export { ProfileNotification } from './profileNotification';
+export { ProfileHead } from './profileHead';
+export { ProfileBody } from './profileBody';
+export { DeleteMyAccount } from './deleteMyAccount';
+export { DeleteOption } from './deleteOption';
+export { myProfilePage } from './styles';

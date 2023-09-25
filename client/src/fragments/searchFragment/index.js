@@ -1,0 +1,1 @@
+export { SearchFragment } from './searchFragment'

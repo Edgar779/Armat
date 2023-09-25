@@ -1,0 +1,4 @@
+# robots.txt for https://aurora.eachbase.com
+User-agent: *
+
+Sitemap: https://aurora.eachbase.com/sitemap.xml

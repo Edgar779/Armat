@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket PDF</title>
+
+    <style> html {
+        -webkit-print-color-adjust: exact;
+    }
+
+    *, :after, :before {
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif !important;
+    }
+
+    a, b, blockquote, body, canvas, caption, code, div, em, embed, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, label, li, main, nav, object, ol, p, pre, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        text-size-adjust: none;
+    }
+
+    footer, header, main, nav, section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+    blockquote:after, blockquote:before, q:after, q:before {
+        content: "";
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    input {
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+
+    button {
+        outline: 0;
+        cursor: pointer;
+    }
+
+    .body-wrapper {
+        display: block;
+        background: #FAFAFA;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .card-wrapper {
+        width: 600px;
+        border-radius: 8px;
+        background-color: white;
+        min-height: 305px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .right-side-wrapper {
+        padding: 24px 0 0;
+        width: 100%;
+    }
+
+    .event-title {
+        padding: 0 24px 24px 24px;
+        color: #222;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .date-time-wrapper{
+        display: flex;
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .day-mouth{
+        padding: 0 24px;
+        color: #139B56;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 1px solid #F4F4F4;
+    }
+    .bold-green{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    .light-green{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .line-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 24px;
+        margin-left: -12px;
+    }
+
+    .line {
+        height: 100%;
+        border-right: 1px dashed black;
+    }
+    .left-side-wrapper{
+      width: 165px;
+      padding: 16px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .ticker-display-wrapper{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .ticker-display{
+        color: #494949;
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 4px;
+    }
+    .day-address{
+        margin-left: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .day-time{
+        color: #139B56;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .address{
+        color: #767676;
+        font-size: 12px;
+        font-weight: 600;
+        margin-top: 4px;
+    }
+    </style>
+
+</head>
+<body style="overflow: auto;  font-family: Open Sana,sans-serif; background:#FAFAFA">
+<div class="body-wrapper">
+
+    <div class="card-wrapper">
+        <div class="right-side-wrapper">
+            <p class="event-title">{{eventTitle}}</p>
+
+<!--         <img-->
+<!--           style="width: 100%; height: 140px; object-fit: cover; display: block!important;"-->
+<!--           src="https://i.ibb.co/sb9XCzs/Image.jpg" alt="Image" />-->
+
+            {{#if logo}}
+            <img style="width: 100%; height: 140px; object-fit: cover; display: block!important;" src={{img}} alt="Image">
+            {{/if}}
+
+            <div class="date-time-wrapper">
+                <div class="day-mouth">
+                    <p class="bold-green">{{day}}</p>
+                    <p class="bold-green">{{month}}</p>
+                    <p class="light-green">{{year}}</p>
+                </div>
+
+                <div class="day-address">
+                    <p class="day-time">{{dayName}}<span style="margin-left: 4px">{{time}}</span></p>
+                    <p class="address">{{eventAddress}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="line-wrapper">
+            <img
+                    style=" display: block!important;" alt="icon"
+                    src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAyNCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9IkVsbGlwc2UgNTE5Ij4KPG1hc2sgaWQ9InBhdGgtMS1pbnNpZGUtMV8xMTExXzM1NTE4IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0yNCAwQzI0IDEuNTc1ODYgMjMuNjg5NiAzLjEzNjI5IDIzLjA4NjYgNC41OTIyQzIyLjQ4MzUgNi4wNDgxMSAyMS41OTk2IDcuMzcwOTggMjAuNDg1MyA4LjQ4NTI4QzE5LjM3MSA5LjU5OTU4IDE4LjA0ODEgMTAuNDgzNSAxNi41OTIyIDExLjA4NjZDMTUuMTM2MyAxMS42ODk2IDEzLjU3NTkgMTIgMTIgMTJDMTAuNDI0MSAxMiA4Ljg2MzcxIDExLjY4OTYgNy40MDc4IDExLjA4NjZDNS45NTE4OSAxMC40ODM1IDQuNjI5MDIgOS41OTk1OCAzLjUxNDcyIDguNDg1MjhDMi40MDA0MiA3LjM3MDk4IDEuNTE2NSA2LjA0ODExIDAuOTEzNDQ1IDQuNTkyMkMwLjMxMDM4OSAzLjEzNjI5IC0xLjM3NzY2ZS0wNyAxLjU3NTg2IDAgLTkuNTM2NzRlLTA3TDEyIDBMMjQgMFoiLz4KPC9tYXNrPgo8cGF0aCBkPSJNMjQgMEMyNCAxLjU3NTg2IDIzLjY4OTYgMy4xMzYyOSAyMy4wODY2IDQuNTkyMkMyMi40ODM1IDYuMDQ4MTEgMjEuNTk5NiA3LjM3MDk4IDIwLjQ4NTMgOC40ODUyOEMxOS4zNzEgOS41OTk1OCAxOC4wNDgxIDEwLjQ4MzUgMTYuNTkyMiAxMS4wODY2QzE1LjEzNjMgMTEuNjg5NiAxMy41NzU5IDEyIDEyIDEyQzEwLjQyNDEgMTIgOC44NjM3MSAxMS42ODk2IDcuNDA3OCAxMS4wODY2QzUuOTUxODkgMTAuNDgzNSA0LjYyOTAyIDkuNTk5NTggMy41MTQ3MiA4LjQ4NTI4QzIuNDAwNDIgNy4zNzA5OCAxLjUxNjUgNi4wNDgxMSAwLjkxMzQ0NSA0LjU5MjJDMC4zMTAzODkgMy4xMzYyOSAtMS4zNzc2NmUtMDcgMS41NzU4NiAwIC05LjUzNjc0ZS0wN0wxMiAwTDI0IDBaIiBmaWxsPSIjRjRGNEY0IiBzdHJva2U9IiNGNEY0RjQiIHN0cm9rZS13aWR0aD0iMiIgbWFzaz0idXJsKCNwYXRoLTEtaW5zaWRlLTFfMTExMV8zNTUxOCkiLz4KPC9nPgo8L3N2Zz4K'/>
+            <div class="line"></div>
+            <img style=" display: block!important;" alt="icon"
+                 src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAyNCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9IkVsbGlwc2UgNTE5IiBmaWx0ZXI9InVybCgjZmlsdGVyMF9kXzExMTFfMzU1MTkpIj4KPG1hc2sgaWQ9InBhdGgtMS1pbnNpZGUtMV8xMTExXzM1NTE5IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0yNCAxMkMyNCAxMC40MjQxIDIzLjY4OTYgOC44NjM3MSAyMy4wODY2IDcuNDA3OEMyMi40ODM1IDUuOTUxODkgMjEuNTk5NiA0LjYyOTAyIDIwLjQ4NTMgMy41MTQ3MkMxOS4zNzEgMi40MDA0MiAxOC4wNDgxIDEuNTE2NSAxNi41OTIyIDAuOTEzNDQ1QzE1LjEzNjMgMC4zMTAzODkgMTMuNTc1OSAtNi44ODgzMWUtMDggMTIgMEMxMC40MjQxIDYuODg4MzJlLTA4IDguODYzNzEgMC4zMTAzODkgNy40MDc4IDAuOTEzNDQ2QzUuOTUxODkgMS41MTY1IDQuNjI5MDIgMi40MDA0MiAzLjUxNDcyIDMuNTE0NzJDMi40MDA0MiA0LjYyOTAyIDEuNTE2NSA1Ljk1MTg5IDAuOTEzNDQ1IDcuNDA3OEMwLjMxMDM4OSA4Ljg2MzcxIC0xLjM3NzY2ZS0wNyAxMC40MjQxIDAgMTJMMTIgMTJIMjRaIi8+CjwvbWFzaz4KPHBhdGggZD0iTTI0IDEyQzI0IDEwLjQyNDEgMjMuNjg5NiA4Ljg2MzcxIDIzLjA4NjYgNy40MDc4QzIyLjQ4MzUgNS45NTE4OSAyMS41OTk2IDQuNjI5MDIgMjAuNDg1MyAzLjUxNDcyQzE5LjM3MSAyLjQwMDQyIDE4LjA0ODEgMS41MTY1IDE2LjU5MjIgMC45MTM0NDVDMTUuMTM2MyAwLjMxMDM4OSAxMy41NzU5IC02Ljg4ODMxZS0wOCAxMiAwQzEwLjQyNDEgNi44ODgzMmUtMDggOC44NjM3MSAwLjMxMDM4OSA3LjQwNzggMC45MTM0NDZDNS45NTE4OSAxLjUxNjUgNC42MjkwMiAyLjQwMDQyIDMuNTE0NzIgMy41MTQ3MkMyLjQwMDQyIDQuNjI5MDIgMS41MTY1IDUuOTUxODkgMC45MTM0NDUgNy40MDc4QzAuMzEwMzg5IDguODYzNzEgLTEuMzc3NjZlLTA3IDEwLjQyNDEgMCAxMkwxMiAxMkgyNFoiIGZpbGw9IiNGNEY0RjQiLz4KPHBhdGggZD0iTTI0IDEyQzI0IDEwLjQyNDEgMjMuNjg5NiA4Ljg2MzcxIDIzLjA4NjYgNy40MDc4QzIyLjQ4MzUgNS45NTE4OSAyMS41OTk2IDQuNjI5MDIgMjAuNDg1MyAzLjUxNDcyQzE5LjM3MSAyLjQwMDQyIDE4LjA0ODEgMS41MTY1IDE2LjU5MjIgMC45MTM0NDVDMTUuMTM2MyAwLjMxMDM4OSAxMy41NzU5IC02Ljg4ODMxZS0wOCAxMiAwQzEwLjQyNDEgNi44ODgzMmUtMDggOC44NjM3MSAwLjMxMDM4OSA3LjQwNzggMC45MTM0NDZDNS45NTE4OSAxLjUxNjUgNC42MjkwMiAyLjQwMDQyIDMuNTE0NzIgMy41MTQ3MkMyLjQwMDQyIDQuNjI5MDIgMS41MTY1IDUuOTUxODkgMC45MTM0NDUgNy40MDc4QzAuMzEwMzg5IDguODYzNzEgLTEuMzc3NjZlLTA3IDEwLjQyNDEgMCAxMkwxMiAxMkgyNFoiIHN0cm9rZT0iI0Y0RjRGNCIgc3Ryb2tlLXdpZHRoPSIyIiBtYXNrPSJ1cmwoI3BhdGgtMS1pbnNpZGUtMV8xMTExXzM1NTE5KSIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfMTExMV8zNTUxOSIgeD0iMCIgeT0iMCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjE0IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjIiLz4KPGZlQ29tcG9zaXRlIGluMj0iaGFyZEFscGhhIiBvcGVyYXRvcj0ib3V0Ii8+CjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjEgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd18xMTExXzM1NTE5Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93XzExMTFfMzU1MTkiIHJlc3VsdD0ic2hhcGUiLz4KPC9maWx0ZXI+CjwvZGVmcz4KPC9zdmc+Cg=='/>
+        </div>
+      <div class="left-side-wrapper">
+        <div>
+          <img style=" display: block!important; width: 100px; height: 100px; padding: 10px" alt="icon" src='{{qrLink}}'/>
+            <div class="ticker-display-wrapper">
+                <p class="ticker-display">#{{displayId}}</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+</body>
+</html>

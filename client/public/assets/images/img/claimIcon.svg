@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Claim_Icon" data-name="Claim Icon" transform="translate(-1389 -744)">
+    <g id="Base" transform="translate(1389 744)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="information" transform="translate(1391 746)">
+      <path id="Path_3602" data-name="Path 3602" d="M10,1a9,9,0,1,0,9,9,9,9,0,0,0-9-9Zm0,16.364A7.364,7.364,0,1,1,17.364,10,7.364,7.364,0,0,1,10,17.364Z" fill="#49B776"/>
+      <path id="Path_3603" data-name="Path 3603" d="M11.818,9A.818.818,0,0,0,11,9.818v5.727a.818.818,0,0,0,1.636,0V9.818A.818.818,0,0,0,11.818,9Z" transform="translate(-1.818 -1.455)" fill="#49B776"/>
+      <circle id="Ellipse_517" data-name="Ellipse 517" cx="0.818" cy="0.818" r="0.818" transform="translate(9.182 5.091)" fill="#49B776"/>
+    </g>
+  </g>
+</svg>

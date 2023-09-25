@@ -1,0 +1,5 @@
+/**My Profile Types */
+
+export const GET_MY_PROFILE = 'GET_MY_PROFILE';
+export const GET_MY_PROFILE_SUCCESS = 'GET_MY_PROFILE_SUCCESS';
+export const OPEN_OR_CLOSE_FILTER_MODAL = 'OPEN_OR_CLOSE_FILTER_MODAL';

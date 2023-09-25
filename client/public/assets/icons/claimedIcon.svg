@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Claimed_Icon" data-name="Claimed Icon" transform="translate(-1342 -688)">
+    <g id="Base" transform="translate(1342 688)" fill="#49B776" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Icon_ionic-md-checkmark-circle-outline" data-name="Icon ionic-md-checkmark-circle-outline" d="M8.685,10.665l-1.26,1.26,4.05,4.05,9-9-1.26-1.26-7.74,7.695Zm10.89,1.71a7.169,7.169,0,1,1-5.22-6.93l1.395-1.4a8.372,8.372,0,0,0-3.375-.675,9,9,0,1,0,9,9Z" transform="translate(1341.625 687.625)" fill="#49B776"/>
+  </g>
+</svg>

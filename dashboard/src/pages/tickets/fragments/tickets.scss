@@ -1,0 +1,225 @@
+// Tickets Style.
+
+@import '../../../assets/styles/global.scss';
+
+
+.create-ticket-wrapper {
+  width: 100%;
+  padding: 32px 16px;
+
+  @media (min-width: 767px) {
+    width: 600px;
+    padding: 40px;
+  }
+  @media (min-width: 1279px) {
+    width: 720px;
+  }
+
+  .create-ticket-title {
+    padding: 0 0 32px;
+    border-bottom: 1px solid #F4F4F4;
+    margin-bottom: 32px;
+  }
+}
+
+.close-btn-wrapper {
+  position: absolute;
+  right: 16px;
+  top: 8px;
+  @media (min-width: 1279px) {
+    display: none;
+  }
+}
+
+.create-ticker-footer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.create-ticker-footer-box {
+  width: 100%;
+
+  .create-cancel-wrapper {
+    flex-direction: row !important;
+  }
+
+  .cancel-button {
+    margin-top: 0 !important;
+    margin-left: 16px !important;
+  }
+
+  @media (min-width: 768px) {
+    width: 310px;
+  }
+
+}
+
+.flex-input {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.right-ceil {
+  margin-left: 0;
+  width: 100%;
+  @media (min-width: 768px) {
+    margin-left: 16px;
+  }
+}
+
+.ticket-info-wrapper {
+  background-color: $white;
+  padding: 24px;
+  @media (max-width: 767px) {
+    padding: 24px 16px;
+  }
+}
+
+.set-as-free {
+  margin-top: -14px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  color: #4B5C68;
+  width: 150px;
+}
+
+.status-switch {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    color: #494949;
+    margin-right: 16px;
+
+  }
+}
+
+.ticket-information-wrapper {
+  max-width: 800px;
+  width: auto;
+}
+
+.ticket-sold-wrapper {
+  min-height: 65vh;
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.sold-table-header {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #222222;
+  background: #FAFAFA;
+  height: 56px;
+  border-radius: 8px 8px 0px 0px;
+
+  .sold-table-header-item {
+    padding: 10px 24px;
+  }
+}
+
+.sold-table-body-wrapper {
+  max-height: 55vh;
+  overflow: auto;
+}
+
+.sold-table-body {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #222222CC;
+  height: 56px;
+  border-bottom: 1px solid #F4F4F4;
+
+  .sold-table-body-item {
+    padding: 10px 24px;
+  }
+}
+
+.checked-in {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #49B776;
+}
+
+.not-checked-in {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #F07379;
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.sold-table-mobile-card {
+  width: 100%;
+  padding: 12px 8px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background: #FAFAFA;
+}
+
+.mobile-card-item{
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid #F4F4F4;
+}
+
+.attend-title{
+  color: #494949;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.attend-row-title{
+  color: #767676;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+.attend-row-value{
+    color: #767676;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+}
+
+.ticket-filter-swipe-body{
+  height: 200px;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Add_Icon" data-name="Add Icon" transform="translate(-1731 -178)">
+    <g id="Base" transform="translate(1731 178)" fill="none" stroke="#49b776" stroke-width="2" stroke-dasharray="2">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8" fill="none"/>
+    </g>
+    <path id="Add_Icon-2" data-name="Add Icon" d="M16.467,12.467h-3v-3a.5.5,0,0,0-1,0v3h-3a.5.5,0,0,0,0,1h3v3a.5.5,0,0,0,1,0v-3h3a.5.5,0,1,0,0-1Z" transform="translate(1727.035 174.035)" fill="#49b776"/>
+  </g>
+</svg>

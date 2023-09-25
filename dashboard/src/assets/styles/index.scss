@@ -1,0 +1,33 @@
+// Global Style
+
+// Style
+
+@import 'global.scss';
+@import 'reset.scss';
+
+// Fragmetn Style.
+@import '../../fragments/drawer/core/menuBar.scss';
+@import '../../components/table/tableStyles.scss';
+@import '../../components/wrapper/wrapper.scss';
+
+// Page.
+
+@import '../../pages/members/fragments/members.scss';
+@import '../../pages/events/events.scss';
+@import '../../pages/organization/organization.scss';
+@import '../../pages/tickets/fragments/tickets.scss';
+@import '../../pages/ticketCheckIn/ticketCheckIn.scss';
+
+// Fragment.
+
+@import '../../fragments/componentModal/modalStyles.scss';
+@import '../../fragments/infoEvent/infoEvent.scss';
+
+// Components.
+
+@import '../../components/inputs/inputsStyles.scss';
+@import '../../components/buttons/buttonsStyles.scss';
+
+@import '../../components/modal/modal.scss';
+@import '../../components/dropwdown/dropdowns.scss';
+@import '../../components/tagFltering/tagStyles.scss';

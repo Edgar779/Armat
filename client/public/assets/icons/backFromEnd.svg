@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Forward_Icon" data-name="Forward Icon" transform="translate(-864 -171)">
+    <g id="Base" transform="translate(864 171)" fill="#49B776" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Forward_Icon-2" data-name="Forward Icon" d="M19.629,16.686,11.687,8.75a1.493,1.493,0,0,1,0-2.118,1.512,1.512,0,0,1,2.125,0l9,8.992a1.5,1.5,0,0,1,.044,2.068l-9.036,9.054a1.5,1.5,0,0,1-2.125-2.118Z" transform="translate(893.247 200.183) rotate(180)" fill="#49B776"/>
+  </g>
+</svg>
+
+
+

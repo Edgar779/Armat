@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Mail_icon" data-name="Mail icon" transform="translate(-116 -1415)">
+    <g id="Email_Icon_" data-name="Email Icon " transform="translate(-858 1056)">
+      <rect id="Base" width="24" height="24" transform="translate(974 359)" fill="#545f7e" opacity="0"/>
+      <g id="Email_Icon_2" data-name="Email Icon " transform="translate(978 365)">
+        <g id="Group_227" data-name="Group 227">
+          <path id="Path_285" data-name="Path 285" d="M14.594,61H1.406A1.409,1.409,0,0,0,0,62.406v9.375a1.409,1.409,0,0,0,1.406,1.406H14.594A1.409,1.409,0,0,0,16,71.781V62.406A1.409,1.409,0,0,0,14.594,61Zm-.194.938-6.37,6.37L1.6,61.938ZM.938,71.587V62.6l4.515,4.476Zm.663.663,4.518-4.518L7.7,69.3a.469.469,0,0,0,.661,0l1.544-1.544L14.4,72.25Zm13.462-.663-4.493-4.493L15.062,62.6Z" transform="translate(0 -61)" fill="#545f7e"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

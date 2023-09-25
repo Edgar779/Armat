@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Direction_Icon" data-name="Direction Icon" transform="translate(-179 -1321)">
+    <g id="traffic-sign" transform="translate(182 1324)">
+      <path id="Path_3981" data-name="Path 3981" d="M17.437,7.642,10.358.563a1.919,1.919,0,0,0-2.716,0L.563,7.642a1.919,1.919,0,0,0,0,2.716l7.079,7.079a1.919,1.919,0,0,0,2.716,0l7.079-7.079a1.919,1.919,0,0,0,0-2.716Zm-.8,1.92L9.562,16.642a.8.8,0,0,1-1.125,0L1.358,9.563a.8.8,0,0,1,0-1.125L8.437,1.359a.8.8,0,0,1,1.125,0l7.079,7.079A.782.782,0,0,1,16.874,9a.79.79,0,0,1-.233.562Z" transform="translate(0 0)" fill="#545f7e"/>
+      <path id="Path_3982" data-name="Path 3982" d="M159.794,146.2c-.044-.067.092.078-1.977-2.023a.562.562,0,0,0-.8.789l1,1.012h-5.437a.562.562,0,0,0-.562.562V150.2a.562.562,0,1,0,1.125,0v-3.094h4.814l-1,1.012a.562.562,0,0,0,.8.789l1.846-1.875A.593.593,0,0,0,159.794,146.2Z" transform="translate(-146.668 -138.949)" fill="#545f7e"/>
+    </g>
+    <g id="Base" transform="translate(179 1321)" fill="#545f7e" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Logo_Icon" data-name="Logo Icon" transform="translate(-1099 -1015)">
+    <g id="Base" transform="translate(1099 1015)" fill="#49B776" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <g id="geometric-shapes" transform="translate(1092 1008)">
+      <path id="Path_3617" data-name="Path 3617" d="M12.58,46.667l5.619-9.99c-.067,0-.132-.01-.2-.01a8,8,0,1,0,7.738,10Z" transform="translate(0 -18.667)" fill="#49B776"/>
+      <path id="Path_3618" data-name="Path 3618" d="M48,26H30l9-16Z" transform="translate(-14)" fill="#49B776"/>
+    </g>
+  </g>
+</svg>

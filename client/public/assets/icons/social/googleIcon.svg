@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Google_Icon" data-name="Google Icon" transform="translate(4181 -8406)">
+    <path id="google_2_" data-name="google (2)" d="M0,7.5A7.509,7.509,0,0,1,7.5,0a7.431,7.431,0,0,1,4.572,1.554L10.329,3.818A4.6,4.6,0,0,0,7.5,2.857a4.643,4.643,0,1,0,4.418,6.071H7.5V6.071H15V7.5a7.5,7.5,0,1,1-15,0Z" transform="translate(-4176 8411)" fill="#fff"/>
+    <g id="Base" transform="translate(-4181 8406)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Organization_Icon" data-name="Organization Icon" transform="translate(-1007 -757)">
+    <g id="Base" transform="translate(1007 757)" fill="#FFFFFF80" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="hierarchical-structure" transform="translate(1010 760)">
+      <path id="Path_3582" data-name="Path 3582" d="M4.746,362H.527a.527.527,0,0,0-.527.527v4.219a.527.527,0,0,0,.527.527H4.746a.527.527,0,0,0,.527-.527v-4.219A.527.527,0,0,0,4.746,362Z" transform="translate(0 -349.273)" fill="#FFFFFF80"/>
+      <path id="Path_3583" data-name="Path 3583" d="M61.055,223.938V222.5h5.309v1.441h1.055V222.5h5.309v1.441h1.055v-1.969a.527.527,0,0,0-.527-.527H67.418V220H66.363v1.441H60.527a.527.527,0,0,0-.527.527v1.969Z" transform="translate(-57.891 -212.266)" fill="#FFFFFF80"/>
+      <path id="Path_3584" data-name="Path 3584" d="M161.527,6.68h5.625a.527.527,0,0,0,.527-.527V.527A.527.527,0,0,0,167.152,0h-5.625A.527.527,0,0,0,161,.527V6.152A.527.527,0,0,0,161.527,6.68Z" transform="translate(-155.34)" fill="#FFFFFF80"/>
+      <path id="Path_3585" data-name="Path 3585" d="M185.746,362h-4.219a.527.527,0,0,0-.527.527v4.219a.527.527,0,0,0,.527.527h4.219a.527.527,0,0,0,.527-.527v-4.219A.527.527,0,0,0,185.746,362Z" transform="translate(-174.637 -349.273)" fill="#FFFFFF80"/>
+      <path id="Path_3586" data-name="Path 3586" d="M366.746,362h-4.219a.527.527,0,0,0-.527.527v4.219a.527.527,0,0,0,.527.527h4.219a.527.527,0,0,0,.527-.527v-4.219A.527.527,0,0,0,366.746,362Z" transform="translate(-349.273 -349.273)" fill="#FFFFFF80"/>
+    </g>
+  </g>
+</svg>

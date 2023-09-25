@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Hours_Icon" data-name="Hours Icon" transform="translate(-1099 -1015)">
+    <g id="Base" transform="translate(1099 1015)" fill="#49B776" stroke="#49B776" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <g id="time" transform="translate(1103 1019)">
+      <path id="Path_3604" data-name="Path 3604" d="M97.457,90a7.457,7.457,0,1,0,7.457,7.457A7.465,7.465,0,0,0,97.457,90Zm2.858,11.267-3.531-3.531V91.393h1.348v5.785l3.137,3.137Z" transform="translate(-85.957 -85.957)" fill="#49B776"/>
+      <path id="Path_3605" data-name="Path 3605" d="M11.5,0A11.5,11.5,0,1,0,23,11.5,11.488,11.488,0,0,0,11.5,0Zm0,20.3a8.8,8.8,0,1,1,8.8-8.8A8.815,8.815,0,0,1,11.5,20.3Z" fill="#49B776"/>
+    </g>
+  </g>
+</svg>

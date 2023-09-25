@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Orderic_List_Icon" data-name="Orderic List Icon" transform="translate(-558 -1573)">
+    <g id="Base" transform="translate(558 1573)" fill="#868686" stroke="#717171" stroke-width="0.5" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.25" y="0.25" width="23.5" height="23.5" fill="none"/>
+    </g>
+    <g id="Orderic_List_Icon-2" data-name="Orderic List Icon" transform="translate(559.333 1577)">
+      <path id="Path_1427" data-name="Path 1427" d="M29.25,47.786H14.984a.953.953,0,1,1,0-1.893H29.25a.953.953,0,1,1,0,1.893Z" transform="translate(-8.981 -32.247)" fill="#868686"/>
+      <path id="Path_1428" data-name="Path 1428" d="M29.25,28.955H14.984a.953.953,0,1,1,0-1.893H29.25a.953.953,0,1,1,0,1.893Z" transform="translate(-8.981 -20.097)" fill="#868686"/>
+      <path id="Path_1429" data-name="Path 1429" d="M29.25,10.124H14.984a1.011,1.011,0,0,1-1.064-.946,1.011,1.011,0,0,1,1.064-.946H29.25a1.011,1.011,0,0,1,1.064.946A1.01,1.01,0,0,1,29.25,10.124Z" transform="translate(-8.981 -7.948)" fill="#868686"/>
+      <circle id="Ellipse_117" data-name="Ellipse 117" cx="1.43" cy="1.43" r="1.43" transform="translate(0 0)" fill="#868686"/>
+      <circle id="Ellipse_118" data-name="Ellipse 118" cx="1.43" cy="1.43" r="1.43" transform="translate(0 6.599)" fill="#868686"/>
+      <circle id="Ellipse_119" data-name="Ellipse 119" cx="1.43" cy="1.43" r="1.43" transform="translate(0 13.199)" fill="#868686"/>
+    </g>
+  </g>
+</svg>

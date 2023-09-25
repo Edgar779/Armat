@@ -1,0 +1,1 @@
+export { NoDataComponent } from './noDateComponent';

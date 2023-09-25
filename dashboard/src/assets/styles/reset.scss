@@ -1,0 +1,220 @@
+// Reset Style.
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    & .MuiContainer-maxWidthLg {
+        @media (min-width: 1200px) {
+            max-width: 1440px;
+        }
+    }
+}
+
+body {
+    margin: 0 auto;
+    line-height: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+input[type='time']::-webkit-calendar-picker-indicator {
+    font-size: 22px;
+    background: url('../images/svg/access_time.svg');
+    background-size: contain;
+}
+input::-webkit-datetime-edit-fields-wrapper {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #222222;
+    margin-left: 0;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+// Material Important Stayle.
+
+.css-1m6607n-MuiListItemAvatar-root {
+    margin-top: 0;
+}
+
+.css-jn01mi {
+    display: none !important;
+}
+
+.MuiAutocomplete-popper {
+    z-index: 99999 !important;
+}
+
+// Default Style.
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-table-text-full-width {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .text-style{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: #626262;
+    }
+}
+
+.edit-event-btn{
+    background: transparent;
+    border: none;
+    color: #49B776;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.mobile-table-body-text-full-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding:  12px 0;
+    border-bottom: 1px solid var(--theme-light, #F4F4F4);
+
+    .mobile-table-text-full-width {
+        margin-bottom: 0 !important;
+    }
+
+    .text-style{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: #626262;
+    }
+}
+
+
+.text-style{
+    width: 100%;
+}

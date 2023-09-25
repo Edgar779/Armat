@@ -1,0 +1,200 @@
+// Button Style.
+
+@import '../../assets/styles/global.scss';
+
+.green-btn {
+    width: 100%;
+    padding: 12px 56px;
+    background-color: $main;
+    text-transform: none;
+    color: $white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+        background: $darkGreen;
+    }
+}
+
+button {
+    text-transform: none;
+}
+
+.invite-green {
+    background: $main;
+    border-radius: 8px;
+    padding: 12px 32px;
+    color: $white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.send-button {
+    margin-top: 16px;
+}
+
+.outlined-btn {
+    background: $white;
+    border-radius: 4px;
+    padding: 12px 87px 12px 86px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gunmetal800;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+        background: $ligthWhite;
+    }
+}
+
+// Buttons Tab
+
+.buttons-tab-wrapper {
+    & .MuiPaper-root {
+        background: none;
+        box-shadow: none;
+    }
+
+    & span {
+        background: none;
+    }
+
+    & .MuiTabs-flexContainer {
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    & .MuiTabs-root {
+        min-height: 36px !important;
+        height: 36px !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    & .MuiTabs-fixed {
+        min-height: 36px;
+        display: flex;
+        align-items: center;
+    }
+
+    & .PrivateTabIndicator-colorPrimary-30 {
+        display: none;
+    }
+
+    & .MuiTab-root {
+        min-height: 36px;
+    }
+}
+
+.add-button {
+    background: $main;
+    padding: 12px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+
+    .button-text {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    &:hover {
+        background: $main;
+        opacity: 0.9;
+    }
+}
+
+.create-cancel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    .cancel-button {
+        margin-right: 12px;
+        width: 100%;
+        height: 48px;
+        background: $greyWhite;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $gunmetal800;
+        text-transform: capitalize;
+        @media (max-width: 768px) {
+            order: 2;
+            margin-top: 16px;
+            margin-right: 0px;
+        }
+    }
+    .add-button {
+        @media (max-width: 768px) {
+            order: 1;
+        }
+    }
+}
+
+.create-cancel-flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .cancel-button {
+        margin-right: 16px;
+        width: 100%;
+        height: 48px;
+        background: $greyWhite;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color:#4B5C68;
+        text-transform: capitalize;
+    }
+    .add-button {
+        @media (max-width: 768px) {
+            order: 1;
+        }
+    }
+}
+
+.back-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background: transparent;
+
+    .text-btn {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gunmetal;
+        margin-left: 10px;
+    }
+}

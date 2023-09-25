@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Email_Icon" data-name="Email Icon" transform="translate(9 10)">
+    <g id="Base" transform="translate(-9 -10)" fill="#387dff" stroke="#707070" stroke-width="1" opacity="0.002">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <g id="email_1_" data-name="email (1)" transform="translate(-6 -80)">
+      <g id="Group_997" data-name="Group 997" transform="translate(0.922 83.075)">
+        <g id="Group_996" data-name="Group 996" transform="translate(0 0)">
+          <path id="Path_3589" data-name="Path 3589" d="M36.967,277.251l-1.508,1.513a1.669,1.669,0,0,1-2.312,0l-1.508-1.513-5.415,5.432a1.567,1.567,0,0,0,.66.149H41.722a1.565,1.565,0,0,0,.66-.149Z" transform="translate(-26.226 -277.251)" fill="#387dff"/>
+        </g>
+      </g>
+      <g id="Group_999" data-name="Group 999" transform="translate(0.922 76)">
+        <g id="Group_998" data-name="Group 998" transform="translate(0 0)">
+          <path id="Path_3590" data-name="Path 3590" d="M41.724,76H26.888a1.566,1.566,0,0,0-.66.149l5.786,5.805h0L33.9,83.843a.633.633,0,0,0,.818,0L36.6,81.956h0l5.786-5.805A1.565,1.565,0,0,0,41.724,76Z" transform="translate(-26.228 -76)" fill="#387dff"/>
+        </g>
+      </g>
+      <g id="Group_1001" data-name="Group 1001" transform="translate(0 76.886)">
+        <g id="Group_1000" data-name="Group 1000" transform="translate(0 0)">
+          <path id="Path_3591" data-name="Path 3591" d="M.168,101.212a1.563,1.563,0,0,0-.168.7V111.4a1.562,1.562,0,0,0,.168.7l5.424-5.442Z" transform="translate(0 -101.212)" fill="#387dff"/>
+        </g>
+      </g>
+      <g id="Group_1003" data-name="Group 1003" transform="translate(12.408 76.886)">
+        <g id="Group_1002" data-name="Group 1002" transform="translate(0 0)">
+          <path id="Path_3592" data-name="Path 3592" d="M358.357,101.21l-5.424,5.442,5.424,5.442a1.562,1.562,0,0,0,.168-.7v-9.492A1.562,1.562,0,0,0,358.357,101.21Z" transform="translate(-352.933 -101.21)" fill="#387dff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

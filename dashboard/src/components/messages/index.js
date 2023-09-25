@@ -1,0 +1,1 @@
+export { ErrMessage } from './errMessage';

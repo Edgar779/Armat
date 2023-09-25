@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Sponsor" transform="translate(-3701 7810)">
+    <g id="Base" transform="translate(3701 -7810)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <g id="save-money" transform="translate(3688 -7807)">
+      <g id="Group_1009" data-name="Group 1009" transform="translate(23.324)">
+        <g id="Group_1008" data-name="Group 1008">
+          <path id="Path_3606" data-name="Path 3606" d="M172.592,0a6.592,6.592,0,1,0,6.592,6.592A6.6,6.6,0,0,0,172.592,0Zm0,10.254a2.2,2.2,0,0,1-1.9-1.1.732.732,0,0,1,1.268-.733.732.732,0,1,0,.635-1.1,2.2,2.2,0,1,1,1.9-3.3.732.732,0,1,1-1.268.733.732.732,0,1,0-.635,1.1,2.2,2.2,0,1,1,0,4.395Z" transform="translate(-166)" fill="#387dff"/>
+        </g>
+      </g>
+      <path id="Path_3607" data-name="Path 3607" d="M16,332.732v5.859a.732.732,0,0,0,.732.732H18.2a.732.732,0,0,0,.732-.732V332h-2.2A.732.732,0,0,0,16,332.732Z" transform="translate(0 -315.789)" fill="#387dff"/>
+      <path id="Path_3608" data-name="Path 3608" d="M123.578,303.593a1.458,1.458,0,0,0-.958.356l-4.194,3.91h-5.1v-1.465h4.15a1.465,1.465,0,1,0,0-2.93h-3.418A4.533,4.533,0,0,0,110.726,302c-2.224,0-2.023,1.45-4.726,1.465v6.094c3.825.513,5.49,2.7,8.585,2.7,4.181,0,5.015-1.5,9.99-6.123a1.465,1.465,0,0,0-1-2.538Z" transform="translate(-85.605 -287.254)" fill="#387dff"/>
+    </g>
+  </g>
+</svg>

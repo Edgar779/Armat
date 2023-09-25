@@ -1,0 +1,7 @@
+<svg id="Add_Icon" data-name="Add Icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="Base" transform="translate(0 0)" fill="none" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="14" height="14" stroke="none"/>
+    <rect x="0.5" y="0.5" width="13" height="13" fill="none"/>
+  </g>
+  <path id="Add" d="M19.944,14.611H14.611v5.333H12.833V14.611H7.5V12.833h5.333V7.5h1.778v5.333h5.333Z" transform="translate(-6.722 -6.722)" fill="#fff"/>
+</svg>

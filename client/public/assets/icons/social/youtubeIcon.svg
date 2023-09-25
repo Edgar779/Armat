@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Youtube_Icon" data-name="Youtube Icon" transform="translate(4110 -8349)">
+    <g id="Youtube" transform="translate(-4116 8333.6)">
+      <path id="Icon_23_" d="M24.6,21.4H13.4A3.394,3.394,0,0,0,10,24.8V30.85a3.394,3.394,0,0,0,3.4,3.4H24.6a3.394,3.394,0,0,0,3.4-3.4V24.8A3.409,3.409,0,0,0,24.6,21.4Zm-7.965,9.2V25.067l4.725,2.767Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+    <g id="Base" transform="translate(-4110 8349)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+  </g>
+</svg>

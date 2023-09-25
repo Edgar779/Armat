@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Italic_Icon" data-name="Italic Icon" transform="translate(-494 -1573)">
+    <g id="Base" transform="translate(494 1573)" fill="#868686" stroke="#717171" stroke-width="0.5" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.25" y="0.25" width="23.5" height="23.5" fill="none"/>
+    </g>
+    <path id="Italic_Icon-2" data-name="Italic Icon" d="M13.333,2.917V4.25a.667.667,0,0,1-.667.667H10.052L6.718,18.25H8.667a.667.667,0,0,1,.667.667V20.25a.667.667,0,0,1-.667.667h-8A.667.667,0,0,1,0,20.25V18.917a.667.667,0,0,1,.667-.667H3.282L6.615,4.917H4.667A.667.667,0,0,1,4,4.25V2.917a.667.667,0,0,1,.667-.667h8A.667.667,0,0,1,13.333,2.917Z" transform="translate(499.333 1573.417)" fill="#868686"/>
+  </g>
+</svg>

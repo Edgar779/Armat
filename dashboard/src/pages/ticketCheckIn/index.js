@@ -1,0 +1,1 @@
+export { TicketCheckIn } from './ticketCheckIn'

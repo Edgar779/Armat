@@ -1,0 +1,1 @@
+export { SingleOrganizations } from './singleOrganizations'

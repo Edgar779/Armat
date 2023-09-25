@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Get_direction_Icon" data-name="Get direction Icon" transform="translate(-389 -1596)">
+    <g id="direction" transform="translate(391.993 1599)">
+      <g id="Group_1147" data-name="Group 1147" transform="translate(0.007 0)">
+        <path id="Path_3777" data-name="Path 3777" d="M23.651,11.151h0L12.85.351a1.2,1.2,0,0,0-1.692,0l-10.8,10.8a1.2,1.2,0,0,0,0,1.7l10.8,10.794v.006a1.2,1.2,0,0,0,1.7,0l10.8-10.8A1.2,1.2,0,0,0,23.651,11.151ZM14.4,15V12H9.6v3.6H7.2V10.8A1.2,1.2,0,0,1,8.4,9.6h6v-3l4.2,4.2Z" transform="translate(-0.007 0)" fill="#49B776"/>
+      </g>
+    </g>
+    <g id="Base" transform="translate(389 1596)" fill="#387dff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+  </g>
+</svg>

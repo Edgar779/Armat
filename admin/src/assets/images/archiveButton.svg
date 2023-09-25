@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Archive_Icon" data-name="Archive Icon" transform="translate(3961 7071)">
+    <circle id="Base" cx="9" cy="9" r="9" transform="translate(-3961 -7071)" fill="#387dff"/>
+    <g id="_22_archive" data-name="22 archive" transform="translate(-3958 -7071)">
+      <path id="Path_3587" data-name="Path 3587" d="M10.32,5.96H6.934L6.192,5.2A.64.64,0,0,0,5.734,5H3.92a.64.64,0,0,0-.64.64v.64H2.64A.64.64,0,0,0,2,6.92v5.44a.64.64,0,0,0,.64.64h6.4a.64.64,0,0,0,.64-.64v-.64h.64a.64.64,0,0,0,.64-.64V6.6A.64.64,0,0,0,10.32,5.96Zm-7.68,6.4V6.92H4.451l.749.765a.64.64,0,0,0,.458.2H9.04v4.48Zm7.68-1.28H9.68V7.88a.64.64,0,0,0-.64-.64H5.654l-.742-.765a.64.64,0,0,0-.461-.2H3.92V5.64H5.734L6.48,6.4a.64.64,0,0,0,.458.2H10.32ZM5.2,11.4a.32.32,0,0,1-.32.32H3.6a.32.32,0,0,1,0-.64H4.88A.32.32,0,0,1,5.2,11.4Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

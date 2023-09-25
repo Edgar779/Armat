@@ -1,0 +1,1 @@
+export { SingleEventInfo } from './singleEventInfo';

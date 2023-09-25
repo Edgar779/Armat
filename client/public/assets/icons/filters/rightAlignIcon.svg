@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Right_Align_Icon" data-name="Right Align Icon" transform="translate(-702 -1573)">
+    <g id="Base" transform="translate(702 1573)" fill="#868686" stroke="#717171" stroke-width="0.5" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.25" y="0.25" width="23.5" height="23.5" fill="none"/>
+    </g>
+    <g id="Right_Align_Icon-2" data-name="Right Align Icon" transform="translate(703.333 1577)">
+      <path id="Path_1443" data-name="Path 1443" d="M142.546,1.94H128.97a.97.97,0,0,1,0-1.939h13.576a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(-122.182 0)" fill="#868686"/>
+      <path id="Path_1444" data-name="Path 1444" d="M20.364,108.607H.97a.97.97,0,1,1,0-1.939H20.364a.97.97,0,1,1,0,1.939Zm0,0" transform="translate(0 -101.819)" fill="#868686"/>
+      <path id="Path_1445" data-name="Path 1445" d="M142.546,215.272H128.97a.97.97,0,0,1,0-1.939h13.576a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(-122.182 -203.635)" fill="#868686"/>
+      <path id="Path_1446" data-name="Path 1446" d="M20.364,321.94H.97A.97.97,0,0,1,.97,320H20.364a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(0 -305.455)" fill="#868686"/>
+    </g>
+  </g>
+</svg>

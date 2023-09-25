@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Social_links_Icon" data-name="Social links Icon" transform="translate(2174 -8549)">
+    <g id="link" transform="translate(-2211.4 8552)">
+      <g id="Group_1144" data-name="Group 1144" transform="translate(42.4 8.015)">
+        <path id="Path_3774" data-name="Path 3774" d="M56.93,172.622a4.858,4.858,0,0,0-3.536-1.43l-2.423,2.423a.7.7,0,0,0,.993.993,2.107,2.107,0,1,1,2.979,2.979l-6.14,6.135a2.107,2.107,0,0,1-2.979-2.979l1.7-1.7a5.881,5.881,0,0,1-.526-.467,6.21,6.21,0,0,1-1.231-1.748l-1.929,1.924a4.916,4.916,0,0,0,6.952,6.952l6.14-6.135a4.983,4.983,0,0,0,0-6.952Z" transform="translate(-42.4 -171.191)" fill="#49B776"/>
+      </g>
+      <g id="Group_1145" data-name="Group 1145" transform="translate(46.556 0)">
+        <path id="Path_3775" data-name="Path 3775" d="M142.536,8.453a6.148,6.148,0,0,1,1.231,1.748l1.808-1.811a4.916,4.916,0,0,0-6.952-6.952L132.6,7.46a4.907,4.907,0,0,0,3.536,8.382l2.423-2.423a.7.7,0,1,0-.993-.993,2.107,2.107,0,1,1-2.979-2.979l6.019-6.022A2.107,2.107,0,1,1,143.59,6.4l-1.58,1.582a5.726,5.726,0,0,1,.526.467Z" transform="translate(-131.169 0)" fill="#49B776"/>
+      </g>
+    </g>
+    <rect id="Base" width="30" height="30" transform="translate(-2174 8549)" fill="#387dff" opacity="0"/>
+  </g>
+</svg>

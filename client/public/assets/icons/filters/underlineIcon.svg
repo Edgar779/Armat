@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Underline_Icon" data-name="Underline Icon" transform="translate(-527 -1573)">
+    <g id="Base" transform="translate(527 1573)" fill="#868686" stroke="#717171" stroke-width="0.5" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.25" y="0.25" width="23.5" height="23.5" fill="none"/>
+    </g>
+    <path id="Underline_Icon-2" data-name="Underline Icon" d="M1.167,2.333H2.333V8.167A5.833,5.833,0,0,0,14,8.167V2.333h1.167a.583.583,0,0,0,.583-.583V.583A.583.583,0,0,0,15.167,0H9.917a.583.583,0,0,0-.583.583V1.75a.583.583,0,0,0,.583.583h1.167V8.167a2.917,2.917,0,1,1-5.833,0V2.333H6.417A.583.583,0,0,0,7,1.75V.583A.583.583,0,0,0,6.417,0H1.167A.583.583,0,0,0,.583.583V1.75A.583.583,0,0,0,1.167,2.333Zm14.583,14H.583A.583.583,0,0,0,0,16.917v1.167a.583.583,0,0,0,.583.583H15.75a.583.583,0,0,0,.583-.583V16.917A.583.583,0,0,0,15.75,16.333Z" transform="translate(531 1575.667)" fill="#868686"/>
+  </g>
+</svg>

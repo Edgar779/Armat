@@ -1,0 +1,10 @@
+export { ModalImage } from './modalImage';
+export { SocialMedia } from './socialMedia';
+export { SignIn } from './signIn';
+export { SignUp } from './signUp';
+export { ForgotPassword } from './forgotPassword';
+export { CheckEmail } from './checkEmail';
+export { ResetPassword } from './resetPass';
+export { SuccessResetPassword } from './successResetPass';
+export { Welcome } from './welcome';
+export { signUpStyles } from './style';

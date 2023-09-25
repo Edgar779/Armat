@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Bold_Icon" data-name="Bold Icon" transform="translate(-470 -1573)">
+    <g id="Base" transform="translate(470 1573)" fill="#868686" stroke="#717171" stroke-width="0.5" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.25" y="0.25" width="23.5" height="23.5" fill="none"/>
+    </g>
+    <path id="Bold_Icon-2" data-name="Bold Icon" d="M14.411,10.833a5.083,5.083,0,0,0,1.125-2.717A5.336,5.336,0,0,0,10.241,2.25H1.932a.667.667,0,0,0-.667.667v2a.667.667,0,0,0,.667.667H3.26v12H1.932a.667.667,0,0,0-.667.667v2a.667.667,0,0,0,.667.667h8.722a5.827,5.827,0,0,0,5.875-5.1A5.645,5.645,0,0,0,14.411,10.833ZM6.585,5.583h3.657a2,2,0,1,1,0,4H6.585Zm3.657,12H6.585V12.917h3.657a2.333,2.333,0,1,1,0,4.667Z" transform="translate(472.734 1573.417)" fill="#868686"/>
+  </g>
+</svg>

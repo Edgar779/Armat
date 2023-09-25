@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Home",
+        "icon": "Home",
+        "path": "/"
+    },
+    {
+        "name": "My Profile",
+        "icon": "MyProfile",
+        "path": "/myProfile",
+        "text": "Edit"
+    },
+    {
+        "name": "My Events",
+        "icon": "MyEvents",
+        "path": "/myEvents",
+        "text": "Create, delete, edit, publish/unpublish"
+    },
+    {
+        "name": "Members",
+        "icon": "Users",
+        "path": "/members",
+        "text": "Activate/deactivate, delete"
+    },
+    {
+        "name": "Events",
+        "icon": "Events",
+        "path": "/events",
+        "text": "Review, publish, disapprove , delete"
+    },
+    {
+        "name": "Settings",
+        "icon": "Settings",
+        "path": "/settings",
+        "text": "Manage category and tag"
+    },
+    {
+        "name": "Organizations",
+        "icon": "Organizations",
+        "path": "/organizations",
+        "text": "Manage Organizations"
+    }
+]

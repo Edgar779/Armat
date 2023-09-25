@@ -1,0 +1,7 @@
+"Email","Role","FullName","PhoneNumber"
+"test@mail.ru","ORGADMIN","test test",
+"cx@mail.ru","ORGMANAGER","a",
+"newAcc@mail.ru","ORGMANAGER","NAme",
+"vv@mail.ru","ORGMEMBER","vv@mail.ru",
+"vv1@mail.ru","ORGMEMBER","vv1@mail.ru",
+"vv122@mail.ru","ORGMEMBER","vv122@mail.ru",

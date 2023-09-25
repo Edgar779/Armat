@@ -1,0 +1,23 @@
+/**Users types */
+
+export const GET_USERS = 'GET_USERS';
+export const GET_USERS_SUCCESS = 'GET_USERS_SUCCESS';
+export const GET_USERS_BY_TOKEN = 'GET_USERS_BY_TOKEN';
+
+//For users search
+
+export const SEARCH_USER = 'SEARCH_USER';
+export const GET_USERS_BY_ID = 'GET_USERS_BY_ID';
+export const GET_USERS_BY_ID_SUCCESS = 'GET_USERS_BY_ID_SUCCESS';
+
+//For delete user
+
+export const DELETE_USER_REQUEST = 'DELETE_USER_REQUEST';
+export const FILTER_USERS_BY_AZ_SUCCESS = 'FILTER_USERS_BY_AZ_SUCCESS';
+
+//For filter users
+
+export const FILTER_USERS_BY_AZ = 'FILTER_USERS_BY_AZ';
+export const FILTER_USERS_BY_DEFAULT = 'FILTER_USERS_BY_DEFAULT';
+export const FILTER_USERS_BY_ROLE = 'FILTER_USERS_BY_ROLE';
+export const FILTER_USERS_BY_ROLE_SUCCESS = 'FILTER_USERS_BY_ROLE_SUCCESS';

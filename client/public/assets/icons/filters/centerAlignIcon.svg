@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Center_Align_Icon" data-name="Center Align Icon" transform="translate(-664 -1571)">
+    <g id="Base" transform="translate(664 1571)" fill="#868686" stroke="#717171" stroke-width="0.5" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.25" y="0.25" width="23.5" height="23.5" fill="none"/>
+    </g>
+    <g id="Center_Align_Icon-2" data-name="Center Align Icon" transform="translate(665.333 1575)">
+      <path id="Path_1447" data-name="Path 1447" d="M78.546,1.94H64.97A.97.97,0,0,1,64.97,0H78.546a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(-61.091 0)" fill="#868686"/>
+      <path id="Path_1448" data-name="Path 1448" d="M20.364,108.607H.97a.97.97,0,0,1,0-1.939H20.364a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(0 -101.819)" fill="#868686"/>
+      <path id="Path_1449" data-name="Path 1449" d="M78.546,215.272H64.97a.97.97,0,0,1,0-1.939H78.546a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(-61.091 -203.635)" fill="#868686"/>
+      <path id="Path_1450" data-name="Path 1450" d="M20.364,321.94H.97A.97.97,0,0,1,.97,320H20.364a.97.97,0,0,1,0,1.939Zm0,0" transform="translate(0 -305.455)" fill="#868686"/>
+    </g>
+  </g>
+</svg>

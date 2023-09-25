@@ -1,0 +1,268 @@
+// Tickets Style.
+
+@import '../../../assets/styles/global.scss';
+
+.members-container {
+  padding: 36px 24px 24px 42px;
+  @media (max-width: 1024px) {
+    padding: 24px;
+  }
+  @media (max-width: 767px) {
+    padding: 16px;
+  }
+
+  .full-table-styles {
+    .table-row {
+      cursor: auto;
+
+      &:hover {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.mobile-pagination {
+  display: none;
+}
+
+.filter-container {
+  .filter-box {
+    & .MuiFormControl-root {
+      width: 100%;
+    }
+  }
+
+  .filter-text {
+    padding: 8px;
+  }
+
+  .filter-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gunmetal800;
+  }
+}
+
+
+// Modal Styles
+
+.member-modal {
+  margin-top: 0px;
+  width: 100%;
+  height: auto;
+  padding: 24px 16px;
+  @media (min-width: 768px) {
+    margin-top: -20px;
+    width: 470px;
+    padding: 0;
+  }
+
+
+  .invite-modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 14px 0;
+
+    @media (min-width: 768px) {
+      margin: 32px 0 14px 0;
+    }
+  }
+
+
+  .members-footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+    .btn-box {
+      width: 108px;
+      height: 48px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.duplicate-modal {
+  margin-top: -20px;
+  width: 460px;
+  height: auto;
+
+  .duplicate-modal-wrapper {
+    margin: 40px 0 14px;
+  }
+
+  .duplicate-modal-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222CC;
+    margin-bottom: 8px;
+  }
+}
+
+.duplicate-mobile{
+  padding: 24px 16px;
+
+  .duplicate-mobile-subtitle{
+    color:  rgba(34, 34, 34, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.add-user-to-list-mobile-modal{
+  padding: 8px;
+  max-height: 60vh;
+  height: auto;
+  overflow: auto;
+
+  .MuiFormControl-root{
+    padding: 0 0 0 10px;
+  }
+  .MuiFormControlLabel-root{
+    margin-right: 0;
+    margin-bottom: 4px;
+    margin-left: 0;
+  }
+  .MuiFormControlLabel-root:hover{
+    border-radius: 8px;
+    background: #FAFAFA;
+    margin-left: 0;
+  }
+  .MuiTypography-root{
+    color: #51566D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 6px;
+  }
+}
+
+.selected-items-mobile{
+  border-bottom: 0.5px solid  #E1E1E1;
+  background:  #FAFAFA;
+  padding: 8px 16px;
+  min-height: 56px;
+  max-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.user-chip{
+  border-radius: 4px;
+  background:  #E5F4EB;
+  padding: 6px 8px;
+  color:  #51566D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.member-swipe-body {
+  height: 150px;
+}
+
+.mobile-actions-wrapper {
+  height: 200px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+
+  .action-button-wrapper {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 8px 8px 9px 8px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      color: #222222;
+      margin-top: 2px;
+      margin-left: 16px;
+    }
+  }
+
+  .action-button-wrapper:hover {
+    background: #F4F4F4;
+  }
+}
+
+.selected-tab-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: #FFF;
+  height: 64px;
+  padding: 0 16px;
+
+  .back-button-and-tex{
+    display: flex;
+    align-items: center;
+    button{
+      background: transparent;
+      border: none;
+      margin-right: 16px;
+      padding: 0;
+      margin-top: 4px;
+    }
+    p{
+      color: #000;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .add-to-btn{
+    color:  #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    background: transparent;
+    border: none;
+  }
+}
+
+.select-actions-btns {
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  button {
+    background: transparent;
+    border: none;
+  }
+
+  .select {
+    color: #49B776;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .cancel {
+    color: #626262;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

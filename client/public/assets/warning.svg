@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="172" viewBox="0 0 172 172">
+  <g id="Warning" transform="translate(-857 -263)">
+    <g id="Base" transform="translate(857 263)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="172" height="172" stroke="none"/>
+      <rect x="0.5" y="0.5" width="171" height="171" fill="none"/>
+    </g>
+    <g id="danger" transform="translate(863 242.634)">
+      <g id="Group_766" data-name="Group 766" transform="translate(0 38.365)">
+        <path id="Path_3537" data-name="Path 3537" d="M158.592,159.522,88.4,43.106a9.8,9.8,0,0,0-16.791,0L1.408,159.522a9.8,9.8,0,0,0,8.4,14.865H150.2a9.8,9.8,0,0,0,8.4-14.865ZM80.052,78.634c4.032,0,7.443,2.274,7.443,6.306,0,12.3-1.447,29.978-1.447,42.279,0,3.2-3.515,4.548-6,4.548-3.308,0-6.1-1.344-6.1-4.548,0-12.3-1.447-29.978-1.447-42.279C72.507,80.909,75.814,78.634,80.052,78.634Zm.1,76.185a7.96,7.96,0,1,1,7.856-7.959A8.08,8.08,0,0,1,80.156,154.819Z" transform="translate(0 -38.365)" fill="rgba(73,183,118,0.8)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,123 @@
+// Modal Global Style.
+
+@import '../../assets/styles/global.scss';
+
+.custom-modal {
+    z-index: 1000;
+    border-radius: 16px;
+    .close-button {
+        border: none;
+        background-color: transparent;
+    }
+}
+
+.close-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.modal-fragment {
+    height: auto;
+    background: $white;
+    border-radius: 8px;
+    z-index: 9999;
+    position: relative;
+    max-height: 80vh;
+}
+
+//.modal-body-style {
+//    height: auto;
+//    max-height: 90vh;
+//    overflow: auto;
+//    width: auto;
+//    padding: 0 16px 16px;
+//    @media (min-width: 768px) {
+//        padding: 0 32px 32px;
+//    }
+//    @media (min-width: 1280px) {
+//        padding: 0 40px 40px;
+//    }
+//    //padding: 32px;
+//    //
+//    //@media (min-width: 1919px) {
+//    //    padding: 40px;
+//    //}
+//}
+
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 8px;
+}
+
+.custom-modal-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2A374E;
+    margin: 10px 0 8px;
+
+    @media (min-width: 768px) {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+.modal-global-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $subtitle;
+}
+
+
+.modal-wrapper-style {
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 8px;
+    position: relative;
+    outline: none;
+}
+
+.modal-header-style {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 8px;
+}
+
+.modal-body-style {
+    height: auto;
+    max-height: 90vh;
+    overflow: auto;
+    width: auto;
+    //padding: 16px;
+
+    @media (min-width: 768px) {
+        padding: 32px;
+    }
+    @media (min-width: 1280px) {
+        padding: 40px;
+    }
+}
+
+
+//.modal-body {
+//    padding: 0 32px 32px 32px;
+//}
+
+.delete-modal-fragment {
+    width: 484px;
+    height: auto;
+    background: $white;
+    border-radius: 8px;
+    z-index: 9999;
+    position: relative;
+}
+
+.modal-body {
+}

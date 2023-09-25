@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Right_Arrow_Icon" data-name="Right Arrow Icon" transform="translate(-411 -574)">
+    <g id="Base" transform="translate(411 574)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="18" height="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+    </g>
+    <path id="Right_Arrow_Icon-2" data-name="Right Arrow Icon" d="M12.885,20.539l5.153-5.164-5.153-5.164,1.586-1.586,6.75,6.75-6.75,6.75Z" transform="translate(402.615 567.625)" fill="rgba(84,95,126,0.7)"/>
+  </g>
+</svg>

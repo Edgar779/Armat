@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="Organization_Icon" data-name="Organization Icon" transform="translate(-15699 -19291)">
+    <rect id="Base" width="18" height="18" transform="translate(15699 19291)" fill="#49B776" opacity="0"/>
+    <g id="company" transform="translate(15701 19293)">
+      <path id="Path_4109" data-name="Path 4109" d="M7.061,62v5.273H0v7.91H1.787V72.547H6.182v2.637H8.818V72.547h4.395v2.637H15V62Zm-.879,9.668H1.787v-.879H6.182Zm0-1.758H1.787v-.879H6.182ZM9.7,71.668H8.818v-7.91H9.7Zm1.758,0h-.879v-7.91h.879Zm1.758,0h-.879v-7.91h.879Z" transform="translate(0 -60.184)" fill="#49B776"/>
+      <path id="Path_4110" data-name="Path 4110" d="M91,452h2.637v1.758H91Z" transform="translate(-88.334 -438.758)" fill="#49B776"/>
+      <path id="Path_4111" data-name="Path 4111" d="M331,452h2.637v1.758H331Z" transform="translate(-321.303 -438.758)" fill="#49B776"/>
+      <path id="Path_4112" data-name="Path 4112" d="M271,0h6.152V.938H271Z" transform="translate(-263.061)" fill="#49B776"/>
+      <path id="Path_4113" data-name="Path 4113" d="M61,182h4.395v.879H61Z" transform="translate(-59.213 -176.668)" fill="#49B776"/>
+    </g>
+  </g>
+</svg>

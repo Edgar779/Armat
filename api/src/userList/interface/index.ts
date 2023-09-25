@@ -1,0 +1,1 @@
+export { IUserList } from './userList.interface';

@@ -1,0 +1,1 @@
+export { SwipeUp } from './swiper';

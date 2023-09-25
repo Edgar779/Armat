@@ -1,0 +1,134 @@
+// Wrapper Style.
+
+@import '../../assets/styles/global.scss';
+
+.wrapper-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $gunmetal800;
+    }
+    .header-btn {
+        .add-button-style {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    @media only screen and (min-width: 767px) {
+        display: none;
+    }
+}
+
+.box-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+        width: 100%;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: $darkText;
+        white-space: nowrap;
+    }
+    .wrapper-subtitle{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        color: #626262;
+        margin-left: 16px;
+        white-space: nowrap;
+    }
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .data-img {
+        margin-top: 120px;
+    }
+    .data-box {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 40px;
+        .title-box {
+            margin-top: 16px;
+            .date-title {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+                color: #2A374E;
+            }
+        }
+        .subtitle-box {
+            margin-top: 16px;
+            .date-subtitle {
+                display: flex;
+                flex-direction: column;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #2A374E;
+            }
+        }
+    }
+}
+
+.radio-label{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 400;
+}
+.radio-label-selected{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600!important;
+}
+
+.wrapper-btn {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    @media (min-width: 767px) {
+        display: flex;
+    }
+
+    .add-button-style {
+        background: $main;
+        height: 44px;
+        border-radius: 8px;
+        width: 212px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        &:hover {
+            background: $main;
+        }
+    }
+
+    .filter-menu {
+        height: 44px;
+        border: none;
+        outline: none;
+        padding: 0;
+    }
+
+    .tab-select-wrapper{
+        margin-left: 16px;
+    }
+}
